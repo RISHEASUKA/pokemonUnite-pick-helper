@@ -1,0 +1,50 @@
+[
+  {
+    "attackerTraitId": 1,
+    "defenderTraitId": 2,
+    "score": 3,
+    "reason": "長射程は短射程に対して一方的に触りやすい"
+  },
+  {
+    "attackerTraitId": 4,
+    "defenderTraitId": 1,
+    "score": 2,
+    "reason": "高バーストは長射程アタッカーを落としやすい"
+  },
+  {
+    "attackerTraitId": 3,
+    "defenderTraitId": 5,
+    "score": 3,
+    "reason": "高DPSは高耐久を削りやすい"
+  },
+  {
+    "attackerTraitId": 7,
+    "defenderTraitId": 6,
+    "score": 3,
+    "reason": "CCは機動力の高い相手を止めやすい"
+  },
+  {
+    "attackerTraitId": 10,
+    "defenderTraitId": 1,
+    "score": 4,
+    "reason": "ダイブは長射程後衛に強く入れる"
+  },
+  {
+    "attackerTraitId": 9,
+    "defenderTraitId": 2,
+    "score": 2,
+    "reason": "ポークは短射程相手を削って有利を作りやすい"
+  },
+  {
+    "attackerTraitId": 8,
+    "defenderTraitId": 4,
+    "score": 1,
+    "reason": "回復は高バースト後の立て直しに貢献できる"
+  },
+  {
+    "attackerTraitId": 5,
+    "defenderTraitId": 4,
+    "score": 2,
+    "reason": "高耐久は高バーストを受けても崩れにくい"
+  }
+]

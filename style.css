@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f7fb;
+  color: #222;
+}
+
+header {
+  background: #2d6cdf;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+.pick-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.pick-slot {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pick-slot label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pick-slot select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #2d6cdf;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.sub-button {
+  background: #777;
+}
+
+.result-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.result-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result-score {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d6cdf;
+}
+
+.result-tier {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.tier-s {
+  background: #e74c3c;
+}
+
+.tier-a {
+  background: #f39c12;
+}
+
+.tier-b {
+  background: #27ae60;
+}
+
+.tier-c {
+  background: #3498db;
+}
+
+.tier-d {
+  background: #7f8c8d;
+}
+
+.reason-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.empty-text {
+  color: #666;
+}

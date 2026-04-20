@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "ピカチュウ", "baseScore": 2 },
+  { "id": 2, "name": "カビゴン", "baseScore": 1 },
+  { "id": 3, "name": "インテレオン", "baseScore": 3 },
+  { "id": 4, "name": "ルカリオ", "baseScore": 1 },
+  { "id": 5, "name": "ワタシラガ", "baseScore": 1 },
+  { "id": 6, "name": "アブソル", "baseScore": 1 }
+]

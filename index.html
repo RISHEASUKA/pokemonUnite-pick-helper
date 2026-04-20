@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokemon Unite Pick Helper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pokemon Unite Pick Helper</h1>
+    <p>特徴ベースで有利なポケモンを表示する試作版</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>味方ピック</h2>
+      <div id="ally-picks" class="pick-list"></div>
+    </section>
+
+    <section class="panel">
+      <h2>相手ピック</h2>
+      <div id="enemy-picks" class="pick-list"></div>
+    </section>
+
+    <section class="panel">
+      <div class="actions">
+        <button id="calculate-btn">候補を計算</button>
+        <button id="reset-btn" class="sub-button">リセット</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>推薦結果</h2>
+      <div id="result-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
