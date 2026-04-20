@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
   createPickSelectors();
   bindEvents();
+  calculateResults();
 });
 
 async function loadData() {
@@ -70,8 +71,12 @@ function createPickSlot(id, labelText) {
 }
 
 function bindEvents() {
-  document.getElementById("calculate-btn").addEventListener("click", calculateResults);
   document.getElementById("reset-btn").addEventListener("click", resetAll);
+
+  const allSelects = document.querySelectorAll(".pick-slot select");
+  allSelects.forEach((select) => {
+    select.addEventListener("change", calculateResults);
+  });
 }
 
 function getSelectedPokemonIds() {
